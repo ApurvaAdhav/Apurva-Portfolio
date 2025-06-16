@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apurva's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <h1 style="cursor:pointer" onclick="history.go(0)">Apurva Adhav</h1>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+          <i class="fa-regular fa-bars"></i>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="home" class="home">
+        <div class="content">
+          <h1 class="greet">Hello There!</h1>
+          <br>
+          <h2 class="name">I'm Apurva Adhav</h2>
+          <br />
+          <p class="intro">
+            A passionate B.Tech student specializing in Artificial Intelligence
+            & Machine Learning at Sanjivani University, Kopargaon.
+          </p>
+        </div>
+        <div class="img">
+          <img src="image/ApurvaAdhav.jpg" alt="My self" />
+        </div>
+      </div>
+
+      <div id="about" class="about">
+        <div class="title">
+          <h1>About Me</h1>
+        </div>
+        <div class="txt-content">
+          <p>
+            Hello, I'm <span class="highlight">Apurva Adhav</span> a B.Tech student specializing in <span class="highlight">Artificial Intelligence & Machine Learning</span> at <span class="highlight">Sanjivani University, Kopargaon</span>.
+          </p>
+          <p>
+            I am passionate about <span class="highlight">AI-driven solutions, machine learning, and deep learning,</span> and I love exploring how technology can solve real-world problems.
+            In addition to AI & ML, I have a strong interest in <span class="highlight">web development.</span> I enjoy building dynamic, user-friendly websites and crafting engaging digital experiences using <span class="highlight"> HTML, CSS, and JavaScript. </span> Whether it's designing intuitive interfaces or optimizing performance, I’m always excited to enhance my web development skills.
+          </p>
+          <br>
+          <p>
+            I love learning, experimenting with new technologies, and taking on challenges that push me to grow. Always eager to collaborate and innovate
+          </p>
+        </div>
+        <br>
+        <br>
+        <div class="socials">
+          <div class="head">
+            <h1>Social Links</h1>
+          </div>
+          <div class="icons">
+            <div class="git">
+              <a href="https://github.com/ApurvaAdhav" target="_blank">
+                <i class="fa-brands fa-github size"></i>
+              </a>
+            </div>
+            <div class="linkedin space">
+              <a
+                href="https://www.linkedin.com/in/apurva-adhav-843495338/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin size"></i>
+              </a>
+            </div>
+            <div class="insta space">
+              <a
+                href="https://www.instagram.com/_apurvaa10/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram size"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="skills" class="skills">
+        <div class="title">
+          <h1>My Skills</h1>
+        </div>
+        <div class="skill_content">
+          <div class="web-dev">
+            <h1 style="font-size: 23px">Web Development</h1>
+            <div class="list">
+              <h3><i class="fa-brands fa-html5"></i>&nbsp; HTML</h3>
+              <progress class="bar" value="98" max="100"></progress>
+
+              <h3><i class="fa-brands fa-css3-alt"></i>&nbsp; CSS</h3>
+              <progress class="bar" value="89" max="100"></progress>
+
+              <h3><i class="fa-brands fa-js"></i>&nbsp; JavaScript</h3>
+              <progress class="bar" value="80" max="100"></progress>
+
+              <h3><i class="fa-brands fa-react"></i>&nbsp; React</h3>
+              <progress class="bar" value="20" max="100"></progress>
+            </div>
+          </div>
+          <div class="programming">
+            <h1 style="font-size: 23px">Programming</h1>
+            <div class="list">
+              <h3><i class="fa-brands fa-java"></i>&nbsp; Java</h3>
+              <progress class="bar" value="80" max="100"></progress>
+
+              <h3><i class="fa-brands fa-python"></i>&nbsp; Python</h3>
+              <progress class="bar" value="68" max="100"></progress>
+
+              <h3><i class="fas fa-code"></i>&nbsp; C</h3>
+              <progress class="bar" value="75" max="100"></progress>
+
+              <h3><i class="fa-regular fa-square-terminal"></i>&nbsp;C++</h3>
+              <progress class="bar" value="65" max="100"></progress>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="projects" class="projects">
+        <div class="title">
+          <h1>My Projects</h1>
+        </div>
+        <br>
+        <div class="desc">
+          <h3 class="pro-desc">
+            Here are some of the projects I have worked on, showcasing my skills
+            in web development, AI/ML, and programming.<br />
+            Each project reflects my passion for technology and problem-solving.
+          </h3>
+        </div>
+        <br>
+        <div class="project_content">
+          <div class="project-card" onclick="window.open('')">
+            <div class="image">
+              <img src="image/Austism image.jpg" alt="Austism Project">
+            </div>
+            <div class="pro_title">
+              <h3>AI-Powered Autism Support System</h3>
+            </div>
+            <div class="short_desc">
+              <p>Developed an AI-powered system integrating IoT and robotics to assist autistic children in improving communication and cognitive skills. The system features speech-to-text processing, emotion detection,  and interactive learning games.</p>
+            </div>
+          </div>
+          
+          <div class="project-card" onclick="window.open('')">
+            <div class="image">
+              <img src="image/Medical store app.png" alt="Medical Store App">
+            </div>
+            <div class="pro_title">
+              <h3>Medical Store Management System</h3>
+            </div>
+            <div class="short_desc">
+              <p>Designed a full-stack web application for real-time inventory, billing and invoice generation in medical stores using 
+Django and MySQL. The system enables automatic inventory updates and user management features for streamlined store operations. Utilized MySQL for efficient database management, with XAMPP for local development and testing. </p>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="image">
+              <img src="image/Solar Panel Project.jpg" alt="Solar Tracker">
+            </div>
+            <div class="pro_title">
+              <h3>Solar Panel Sun Tracking System</h3>
+            </div>
+            <div class="short_desc">
+              <p>Implemented a dual-axis sun tracking system using Light Dependent Resistors (LDRs) to maximize solar 
+                energy collection. The system dynamically adjusts the position of solar panels to ensure optimal alignment 
+                with the sun throughout the day.</p>
+            </div>
+          </div>
+
+          <div class="project-card" onclick="window.open('')">
+            <div class="image">
+              <img src="image/Vitthal Rukmini Temple.png" alt="Temple Project">
+            </div>
+            <div class="pro_title">
+              <h3>Vitthal-Rukmini Temple , Pandharpur official website</h3>
+            </div>
+            <div class="short_desc">
+              <p>Designed and launched a responsive website for promoting religious events and facilitating online donations, improving 
+accessibility for devotees. Integrated a robust backend to efficiently manage high traffic during peak devotional events.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="resume" class="resume">
+        <div class="title">
+          <h1>My Resume</h1>
+        </div>
+        <div class="resume-content">
+          <p>Here is the download link for my resume:</p>
+          <a href="image/Apurva's Resume.pdf" class="resume-btn" target="_blank">View Resume</a>
+          <a href="image/Apurva's Resume.pdf" class="resume-btn" download>Download Resume</a>
+            <i class="fa-solid fa-download"></i> 
+          </a>
+        </div>
+      </div>
+
+      <div id="contact" class="contact">
+        <div class="title">
+          <h1>Contact Me</h1>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <p>Email: <a href="mailto:apurvaadhav16@gmail.com">apurvaadhav16@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-linkedin"></i>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/apurva-adhav/" target="_blank">apurva-adhav</a></p>
+            </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-github"></i>
+              <p>GitHub: <a href="https://github.com/ApurvaAdhav" target="_blank">ApurvaAdhav</a></p>
+            </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-instagram"></i>
+              <p>Instagram: <a href="https://www.instagram.com/_apurvaa10/" target="_blank">_apurvaa10</a></p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Send me a message</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea id="message" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy;Apurva Adhav. All Rights Reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
